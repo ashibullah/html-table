@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h2>Fillup according to your appertiate</h2>
+        <form>
+            <label for="name">Your Name: 
+                <input type="text" placeholder="Example: John">
+            </label>
+            <label for="email">Your email: 
+                <input type="email" placeholder="Example@xyz.com">
+            </label>
+
+            <label for="phone">Your Phone: <input type="text" placeholder="+8801****"></label>
+
+            <fieldset>
+                <legend>Pick one drinks</legend>
+            <label for="cha"><input type="radio" name="drinks">Cha</label>
+            <label for="coffee"><input type="radio"name="drinks" >Coffee</label>
+            <label for="juice"><input type="radio"name="drinks">Juice</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Snacks to eat</legend>
+            <label for="pizza"><input type="checkbox" name="snacks" id="">Pizza</label>
+            <label for="burger"><input type="checkbox" name="snacks" id="">Burger</label>
+            <label for="Naruti"><input type="checkbox" name="snacks" id="">Naruti</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Extra information</legend>
+            <textarea name="" id="" cols="20" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Place order">
+
+        </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
